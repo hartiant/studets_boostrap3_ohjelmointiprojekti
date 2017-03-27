@@ -1,0 +1,200 @@
+body	{
+	
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#F30699;	
+	font-size: 100%;
+	background:#131212 !important;
+}
+
+#container {
+	width:100%;
+	
+}
+
+
+
+#main	{
+	
+	font-size:20px;
+	color:#F30699;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:1%;
+	border:2px solid #F30699;
+	padding-left:2em;
+}	
+
+#main2	{
+	width:100%;
+	float:left;
+	font-size:20px;
+	color:#F30699;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:1%;
+	border:2px solid #F30699;
+	padding-left:2em;
+}
+
+#main2 img	{
+	margin:5px;
+	float:left;
+}
+
+#main3	{
+	width:100%;
+	float:left;
+	font-size:20px;
+	color:#F30699;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:1%;
+	border:2px solid #F30699;
+	padding-left:2em;
+}
+
+
+#julkaisut	{
+	text-align: center;
+}
+
+#julkaisut img	{
+	margin-top: 20px;
+	
+	margin-bottom: 10px;
+	margin-left: 20px;	
+	
+	
+	}
+
+#video		{
+	text-align: center;
+	margin-top: 5px;
+	padding-right:4%;
+		
+}
+
+#keikat		{
+	text-align:center;
+}
+
+#sivupalkki	{
+	
+	font-size:17px;
+	color:#F30699;
+	padding-left:2em;
+	border:2px solid #F30699;
+}
+
+
+div.desc {
+  width: 255px;
+  
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#footer	{
+	text-align:center;
+	color: #F30699;
+	clear: both;
+	width: 100%;
+	float:left;
+	border:2px solid #F30699;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	padding-bottom: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+
+#yhteys		{
+	text-align:center;
+	width:50%;
+	font-size:20px;
+	color:#F30699;
+	margin-top:15%;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid #F30699;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+	
+	}
+
+
+
+
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Tablet view: 2 tiles */
+   	
+#container{
+	
+}
+
+#main	{
+	
+	
+	font-size:120%;
+}	
+
+#julkaisut img	{
+	
+	width:35%;
+	height:auto;
+	
+
+	margin-left: 30%;	
+	}
+
+}
+@media only screen and (max-width : 650px) {
+	/* Smartphone view: 1 tile */
+	 
+#container	{	
+	
+		
+}
+
+#main	{
+	
+	font-size:120%;
+	}	
+
+#julkaisut img	{
+	
+	width:50%;
+	height:auto;
+	margin-left: 25%;	
+	}
+	
+	
+	
+	
+}
+
+
+
+
